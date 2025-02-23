@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: communication-service
-          image: joeltompt/communication-service:latest
+          image: joeltompt/qorvia-communication-service:latest
           ports:
             - containerPort: 8080
           envFrom:
